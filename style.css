@@ -1,10 +1,45 @@
 header{
     margin: 0%;
-    padding: 10px;
-    background-color: beige;
+    padding: 7px;
+   background-color: bisque;
+
 }
 body{
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+   
+.tabl{
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    
+}
+.oo{
+    width:600px;
+    height:300px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.second{
+    font-size: 30px;
+   display: flex;
+    align-items:center;
+    padding-top:30px;
+    
+}
+.picture1{
+    width:500px;
+    margin-left:20px;
+    border-radius: 10px;
+    
+}
+main{
+    padding-top: 30px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/602d246245658135031e4b2a/f58e962a-2ebd-4983-ba11-8832bebf38c2/hero+image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
 }

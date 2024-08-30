@@ -6,6 +6,12 @@
     margin: 0; 
     font-family: Arial, sans-serif; 
     font-size: 17px; 
+    background-image: url(https://files.facepunch.com/helkus/1b0611b1/rust_horseride_sunset.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
   } 
    
   header { 
@@ -81,6 +87,7 @@
     color:chocolate;
     transition-delay: 0.3s;
     transition-duration:2s;
+    position:absolute;
 
   }
   .text2 h1:hover{
@@ -90,3 +97,50 @@
     color:yellow;
 
   }
+  .text2 h1{
+    
+    border:solid 1px orange;
+    width:250px;
+    background-color: orange;
+    border-radius: 10px;
+  }
+  .image{
+    position:absolute;
+    top:40%;
+    
+   
+
+  }
+  .image img:hover{
+    box-shadow: 0px 0px 10px 10px white;
+    transition-delay:0.5s;
+    transition-duration:0.4s;
+
+  }
+  
+  
+  
+    
+  
+  .latest a{
+    
+  }
+  .image h1{
+    position: absolute;
+    left:975px;
+    top:350px;
+    border:solid 1px orange;
+    background-color: orange;
+    border-radius:10px;
+    
+    
+  }
+  .image p{
+    position: absolute;
+    left:910px;
+    bottom:350px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    
+}

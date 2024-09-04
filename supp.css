@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/09/Rust-sequel-confirmed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.input1 input{
+    width:500px;
+    text-align: center;
+    position:absolute;
+    right:700px;
+    height:20px;
+    top:50px;
+}
+.input1 a{
+    text-decoration: none;
+    position:absolute;
+    right:400px;
+    top:45px;
+    font-size: 25px;
+    color:white;
+    border:solid 1px gray;
+    background-color: gray;
+    border-radius: 10px;
+    
+}
+.input1 input:hover{
+    transform: scale(1.02);
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px 10px red; 
+}
+.input1 a:hover{
+    box-shadow: 0px 0px 10px 10px red; 
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    transform: scale(1.02);
+}

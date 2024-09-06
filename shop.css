@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
    background-color: #4d7292;
 
@@ -319,3 +320,137 @@ box-shadow: 0px 0px 10px 10px white;
                 box-shadow: 0px 0px 10px 10px white;
                    }
 
+=======
+
+body {
+  font-family: "Roboto", sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #1d1f27; 
+  color: #e1e1e6; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #242833; 
+  padding: 10px 20px;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #e1e1e6; 
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #ff6f61; 
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ff6f61; 
+  margin-bottom: 40px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #2b2f3a; 
+  border: 1px solid #3e4353; 
+  padding: 20px;
+  margin: 20px;
+  width: 240px;
+  text-align: center;
+  border-radius: 10px; 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; 
+}
+
+.product-card h2 {
+  font-size: 1.8em;
+  color: #e1e1e6;
+  margin: 15px 0;
+}
+
+.product-card p {
+  font-size: 1em;
+  color: #b3b3b7;
+}
+
+.product-card .price {
+  font-size: 1.4em;
+  color: #ff6f61; 
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #ff6f61; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff5046; 
+}
+
+
+footer {
+  background-color: #242833;
+  color: #e1e1e6;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer .social-media a {
+  color: #e1e1e6;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+  color: #ff6f61; /* Підсвітка соцмереж при наведенні */
+}
+>>>>>>> bbea6f27f2ed397524e21e65e2d6eb746aeb1d16

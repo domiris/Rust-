@@ -12,6 +12,7 @@
     background-attachment: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+    
   } 
    
   header { 
@@ -143,4 +144,14 @@
     text-align: center;
     font-weight: 500;
     
+}
+@media (min-width:1450px) {
+  header video.mp4{
+    width:1800px;
+  }
+}
+.contain svg:hover{
+  box-shadow: 0px 0px 10px 10px white;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
 }

@@ -1,4 +1,321 @@
 body{
-    background-color: ;
+   background-color: #4d7292;
 
 }
+
+    
+header{
+    border:solid 1px #abc7d6;
+   
+    background-color: #abc7d6;
+    position:absolute;top:-3px;
+    left:-3px;
+    right:-15px;
+}
+header svg:hover{
+    transform: scale(1.10);
+    box-shadow: 0px 0px 10px 10px white; 
+    transition-duration: 1.5s;
+    transition-delay: 0.5s;
+    transform: rotate(360deg);
+}
+.image1{
+    border:solid 1px orange;
+    position: absolute;
+    top:120px;
+    left:30px;
+    background-color: orange;
+    
+    
+}
+.image1 h1{
+border:solid 1px yellow;
+
+background-color: yellow;
+color:gray;
+display:block;
+text-align: center;
+
+width:170px;
+font-size: 25px;
+border-radius:10px;
+margin-left:75px;
+
+}
+.image1 a{
+    border:solid 1px yellow;
+width:140px;
+background-color: yellow;
+color:gray;
+display:block;
+text-align: center;
+margin-left:93px;
+
+font-size: 25px;
+border-radius:10px;
+text-decoration: none;
+}
+.image2{
+    border:solid 1px orange;
+    position: absolute;
+    top:120px;
+    left:30px;
+    background-color: orange;
+    left:600px;
+}
+.image2 h1{
+    border:solid 1px yellow;
+
+    background-color: yellow;
+    color:gray;
+    display:block;
+    text-align: center;
+    
+    width:170px;
+    font-size: 25px;
+    border-radius:10px;
+    margin-left:90px;
+}
+.image2 a{
+    border:solid 1px yellow;
+width:140px;
+background-color: yellow;
+color:gray;
+display:block;
+text-align: center;
+margin-left:110px;
+
+font-size: 25px;
+border-radius:10px;
+text-decoration: none;
+}
+    .image3{
+        position:absolute;
+        left:1150px;
+        top:120px;
+        border:solid 1px orange;
+        background-color: orange;
+    }
+    .image3 h1{
+        border:solid 1px yellow;
+
+        background-color: yellow;
+        color:gray;
+        display:block;
+        text-align: center;
+        
+        width:170px;
+        font-size: 25px;
+        border-radius:10px;
+        margin-left:90px;
+    }
+    .image3 a{
+        border:solid 1px yellow;
+        width:140px;
+        background-color: yellow;
+        color:gray;
+        display:block;
+        text-align: center;
+        margin-left:110px;
+        
+        font-size: 25px;
+        border-radius:10px;
+        text-decoration: none;
+    }
+    .image4{
+        position: absolute;
+        left:30px;
+        top:600px;
+        border:solid 1px orange;
+        background-color: orange;
+    }
+    .image4 h1{
+        border:solid 1px yellow;
+
+        background-color: yellow;
+        color:gray;
+        display:block;
+        text-align: center;
+        
+        width:170px;
+        font-size: 25px;
+        border-radius:10px;
+        margin-left:80px;
+    }
+    .image4 a{
+        border:solid 1px yellow;
+        width:140px;
+        background-color: yellow;
+        color:gray;
+        display:block;
+        text-align: center;
+        margin-left:95px;
+        
+        font-size: 25px;
+        border-radius:10px;
+        text-decoration: none;
+    }
+    .image5{
+        position: absolute;
+        top:600px;
+        left:600px;
+        border:solid 1px orange;
+        background-color: orange;
+    }
+    .image5 h1{
+        border:solid 1px yellow;
+
+        background-color: yellow;
+        color:gray;
+        display:block;
+        text-align: center;
+        
+        width:170px;
+        font-size: 25px;
+        border-radius:10px;
+        margin-left:85px;
+    }
+    .image5 a{
+        border:solid 1px yellow;
+        width:140px;
+        background-color: yellow;
+        color:gray;
+        display:block;
+        text-align: center;
+        margin-left:100px;
+        
+        font-size: 25px;
+        border-radius:10px;
+        text-decoration: none;
+    }
+    @media screen and (max-width:1200px) {
+        header{
+right:-700px;
+        }
+    }
+   
+    @media screen and (max-width:768px){
+        header{
+            width: 1500px;
+        }
+    }
+   
+    @media screen and (max-width:1280px) {
+        header{
+right:-600px;
+        }
+    }
+    @media screen and (max-width:1475px) {
+        header{
+right:-100px;
+        }
+    }
+    @media screen and (max-width:1381px) {
+        header{
+right:-200px;
+        }
+    }
+    @media screen and (max-width:781px) {
+        header{
+right:-100px;
+        }
+    }
+    @media screen and (max-width:1291px) {
+        header{
+right:-500px;
+        }
+    }
+    @media screen and (max-width:769px) {
+        header{
+right:-800px;
+        }
+    }
+    @media screen and (max-width:989px) {
+        header{
+right:-600px;
+        }
+    }
+    @media screen and (max-width:773px) {
+        header{
+right:-800px;
+        }
+    }
+   
+    @media screen and (max-width:900px) {
+        header{
+right:-700px;
+        }
+    }
+    
+    
+    @media screen and (max-width:775px) {
+        header{
+right:-820px;
+        }
+    }
+    @media screen and (max-width:779px) {
+        header{
+right:-820px;
+        }
+    }
+   .image1 h1:hover{
+transform: scale(1.20);
+transition-duration: 0.8s;
+transition-delay: 0.5s;
+box-shadow: 0px 0px 10px 10px white;
+   }
+   .image1 a:hover{
+    transform: scale(1.20);
+transition-duration: 0.8s;
+transition-delay: 0.5s;
+box-shadow: 0px 0px 10px 10px white;
+   }
+   .image2 h1:hover{
+    transform: scale(1.20);
+    transition-duration: 0.8s;
+    transition-delay: 0.5s;
+    box-shadow: 0px 0px 10px 10px white;
+       }
+       .image2 a:hover{
+        transform: scale(1.20);
+    transition-duration: 0.8s;
+    transition-delay: 0.5s;
+    box-shadow: 0px 0px 10px 10px white;
+       }
+       .image3 h1:hover{
+        transform: scale(1.20);
+        transition-duration: 0.8s;
+        transition-delay: 0.5s;
+        box-shadow: 0px 0px 10px 10px white;
+           }
+           .image3 a:hover{
+            transform: scale(1.20);
+        transition-duration: 0.8s;
+        transition-delay: 0.5s;
+        box-shadow: 0px 0px 10px 10px white;
+           }
+           .image4 h1:hover{
+            transform: scale(1.20);
+            transition-duration: 0.8s;
+            transition-delay: 0.5s;
+            box-shadow: 0px 0px 10px 10px white;
+               }
+               .image4 a:hover{
+                transform: scale(1.20);
+            transition-duration: 0.8s;
+            transition-delay: 0.5s;
+            box-shadow: 0px 0px 10px 10px white;
+               }
+               .image5 h1:hover{
+                transform: scale(1.20);
+                transition-duration: 0.8s;
+                transition-delay: 0.5s;
+                box-shadow: 0px 0px 10px 10px white;
+                   }
+                   .image5 a:hover{
+                    transform: scale(1.20);
+                transition-duration: 0.8s;
+                transition-delay: 0.5s;
+                box-shadow: 0px 0px 10px 10px white;
+                   }
+

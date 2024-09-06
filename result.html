@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Результат</title>
+</head>
+<body>
+    <h1>Отримані дані:</h1>
+    <div id="result"></div>
+
+    <script>
+        window.addEventListener('load', function() {
+            const params = new URLSearchParams(window.location.search);
+            const resultDiv = document.getElementById('result');
+            
+            console.log("Отримані дані:", window.location.search);
+            
+            for (let [key, value] of params) {
+                const p = document.createElement('p');
+                p.textContent = `${key}: ${value}`;
+                resultDiv.appendChild(p);
+            }
+        });
+    </script>
+</body>
+</html>

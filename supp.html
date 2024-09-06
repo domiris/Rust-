@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="supp.css" /> 
+    <title>Форма</title>
+    <link rel="stylesheet" href="supp.css" />
 </head>
 <body>
-    <div class="input1">
-    <input type="text"placeholder="Please type your request into this place!">
-    <a href="-">Click to send your request!</a>
+    <div class="buttons">
+    <form id="myForm">
+        <input type="text" name="name" placeholder="Ім'я"style="position:absolute;left:500px;">
+        <input type="email" name="email" placeholder="Email"style="position:absolute;left:800px;">
+        <input type="submit" value="Відправити"style="position: absolute;left:1100px;">
+    </form>
 </div>
 
-    
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            let params = new URLSearchParams(formData);
+            
+            // Перевірка: виведемо дані в консоль
+            console.log("Дані форми:", params.toString());
+            
+            // Переконайтеся, що 'result.html' знаходиться в тому ж каталозі
+            window.location.href = 'result.html?' + params.toString();
+        });
+    </script>
 </body>
 </html>

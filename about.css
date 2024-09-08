@@ -65,7 +65,7 @@ h1 {
 }
 
 .team-photo {
-  width: 100%;
+  width: 60%;
   height: auto;
   border-radius: 10px; 
   margin-right: 20px;
@@ -89,8 +89,12 @@ h1 {
 
 .team-section {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
-
+.team-head{
+  text-align: center;
+}
 .team-member {
   display: inline-block;
   width: 30%;
